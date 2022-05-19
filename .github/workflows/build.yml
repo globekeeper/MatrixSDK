@@ -11,10 +11,10 @@ on:
 jobs:
   build:
 
-    runs-on: macos-11
+    runs-on: macos-12
     strategy:
       matrix:
-        xcode: ['13.1']
+        xcode: ['13.3.1']
 
     steps:
     - uses: actions/checkout@v2
@@ -25,7 +25,7 @@ jobs:
     - name: Checkout matrix-ios-sdk
       uses: actions/checkout@v2
       with:
-        repository: globekeeper/matrix-ios-sdk
+        repository: matrix-org/matrix-ios-sdk
         ref: ${{ github.event.inputs.version }}
         path: matrix-ios-sdk
         

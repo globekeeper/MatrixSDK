@@ -11,10 +11,7 @@ on:
 jobs:
   build:
 
-    runs-on: macos-12
-    strategy:
-      matrix:
-        xcode: ['13.3.1']
+    runs-on: macos-latest
 
     steps:
     - uses: actions/checkout@v2

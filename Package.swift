@@ -8,6 +8,6 @@ let package = Package(
         .library(name: "MatrixSDK", targets: ["MatrixSDK"])
     ],
     targets: [
-        .binaryTarget(name: "MatrixSDK", url: "https://github.com/globekeeper/MatrixSDK/releases/download/v0.23.6/MatrixSDK.xcframework.zip", checksum: "e79321351706e6dafe9eb8e2e0ff165e12e4a9932e1f9a8cdd1396291dfddffb")
+        .binaryTarget(name: "MatrixSDK", url: "https://github.com/globekeeper/MatrixSDK/releases/download/v0.23.8/MatrixSDK.xcframework.zip", checksum: "58b53abc608c3e5511828d497c35884535cf1f79ebfe074ee7d0f8071113d5d6")
     ]
 )
